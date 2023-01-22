@@ -4,6 +4,11 @@
 
 }
 
+/* img {
+    max-width: 100%;
+    max-height: 100%;
+} */
+
 
 body {
     background-color: #192244;
@@ -187,6 +192,7 @@ body {
     /* width: 50%; */
 }
 
+
 .filter-title,
 .table-title {
     text-transform: uppercase;
@@ -323,4 +329,17 @@ body {
     color: #ff00ff;
     background-color: rgba(25, 34, 67);
 
+}
+
+.contacts-container-flex {
+
+    margin: 40px 10px;
+    padding: 20px 20px;
+    background-color: #1f2c56;
+    /* border: rgb(200, 200, 200) solid 1px; */
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #1f2c56;
+    flex-direction: column;
+    display: flex;
+    max-width: 20%;
 }
